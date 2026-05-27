@@ -16,6 +16,8 @@ env/
 demo_outputs/
 *.png
 *.pdf
+!docs/figures/
+!docs/figures/*.png
 
 # Private data and logs
 data/
@@ -35,4 +37,3 @@ logs/
 .DS_Store
 .idea/
 .vscode/
-
