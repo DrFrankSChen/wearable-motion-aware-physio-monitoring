@@ -8,7 +8,9 @@ This repository is a public research summary of active work in wearable health s
 
 The project centers on motion-aware estimation from wearable PPG and IMU streams, especially in sleep and resting contexts where posture changes and movement can still corrupt physiological signals.
 
-![Motion-aware wearable physiological monitoring overview](docs/figures/system_overview.svg)
+![Motion-aware wearable physiological monitoring overview](docs/figures/system_overview.png)
+
+The overview shows the intended flow: headband and wrist-worn sensors provide PPG and IMU streams, motion-aware processing separates physiological content from movement artifacts, and downstream estimators produce breathing-rate and heart-rate outputs.
 
 ## Motivation
 
