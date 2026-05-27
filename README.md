@@ -4,6 +4,12 @@ Research prototypes for motion-aware heart-rate and breathing-rate estimation fr
 
 This repository is a public research summary of active work in wearable health sensing. It highlights the problem framing, modeling approaches, validation strategy, deployment direction, and a synthetic demonstration of motion artifact handling without publishing private data, ongoing research models, or the full unpublished implementation.
 
+## System Overview
+
+The project centers on motion-aware estimation from wearable PPG and IMU streams, especially in sleep and resting contexts where posture changes and movement can still corrupt physiological signals.
+
+![Motion-aware wearable physiological monitoring overview](docs/figures/system_overview.svg)
+
 ## Motivation
 
 Wearable physiological signals are noisy in real settings. Photoplethysmography (PPG) can carry heart-rate and respiration-related information, but motion artifacts often create peaks, amplitude shifts, dropouts, and misleading frequency content. This project explores ways to estimate physiology from wearable signals while explicitly accounting for motion.
