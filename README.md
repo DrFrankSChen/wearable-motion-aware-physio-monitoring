@@ -2,11 +2,11 @@
 
 Research prototypes for motion-aware heart-rate and breathing-rate estimation from wearable and head-worn PPG and IMU signals.
 
-This repository is a public portfolio summary of active research work in wearable health sensing. It highlights the problem framing, modeling approaches, validation strategy, and a synthetic demonstration of motion artifact handling without publishing private data, trained models, or the full unpublished implementation.
+This repository is a public research summary of active work in wearable health sensing. It highlights the problem framing, modeling approaches, validation strategy, deployment direction, and a synthetic demonstration of motion artifact handling without publishing private data, ongoing research models, or the full unpublished implementation.
 
 ## Motivation
 
-Wearable physiological signals are noisy in real settings. Photoplethysmography can carry heart-rate and respiration-related information, but motion artifacts often create peaks, amplitude shifts, dropouts, and misleading frequency content. This project explores ways to estimate physiology from wearable signals while explicitly accounting for motion.
+Wearable physiological signals are noisy in real settings. Photoplethysmography (PPG) can carry heart-rate and respiration-related information, but motion artifacts often create peaks, amplitude shifts, dropouts, and misleading frequency content. This project explores ways to estimate physiology from wearable signals while explicitly accounting for motion.
 
 The work focuses on two research tracks:
 
@@ -25,24 +25,7 @@ The private research implementation explores a pipeline with these stages:
 
 See [docs/method_overview.md](docs/method_overview.md) for a fuller overview.
 
-## Repository Contents
-
-Included:
-
-- Public-safe method overview.
-- Preliminary, summarized results.
-- A synthetic motion-artifact demo.
-- Notes explaining what is intentionally excluded.
-
-Not included:
-
-- Private physiological recordings.
-- Full research source code.
-- Exact unpublished model pipelines.
-- Trained model weights or mobile deployment artifacts.
-- Device credentials or experiment logs.
-
-See [docs/repo_boundary.md](docs/repo_boundary.md) for the disclosure boundary.
+The public disclosure boundary is described in [docs/repo_boundary.md](docs/repo_boundary.md).
 
 ## Synthetic Demo
 
@@ -61,7 +44,10 @@ The demo saves a plot under `demo_outputs/`, which is ignored by git.
 
 The research prototypes have shown promising preliminary performance in controlled evaluations, but the work is not clinically validated and should not be used for medical decision-making. See [docs/results_summary.md](docs/results_summary.md).
 
+## Deployment Prototype
+
+The private implementation also includes iOS deployment prototypes for real-time estimation from wearable streams. See [docs/deployment.md](docs/deployment.md).
+
 ## Status
 
-This is an active research and portfolio repository. The public materials are designed to show the research direction and engineering scope while preserving unpublished methods and private data.
-
+This is an active research repository. The public materials are designed to describe the research direction and engineering scope while preserving unpublished methods and private data.

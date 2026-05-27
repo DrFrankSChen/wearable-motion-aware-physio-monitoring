@@ -22,7 +22,6 @@ This repository is intentionally limited to public-safe materials.
 
 ## Reason
 
-The goal is to communicate the research direction and engineering scope for portfolio and recruiting purposes while preserving unpublished work and private sensor data.
+The goal is to communicate the research direction and engineering scope while preserving unpublished work and private sensor data.
 
 The public materials should be enough for a reviewer to understand that the project involves wearable sensing, physiological signal processing, motion artifacts, machine learning prototypes, and reference-device evaluation. They should not be enough to reproduce the full research pipeline.
-
