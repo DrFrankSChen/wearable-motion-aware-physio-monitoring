@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Generated demo outputs
+demo_outputs/
+*.png
+*.pdf
+
+# Private data and logs
+data/
+datasets/
+logs/
+*.log
+*.cs[v]
+*.jsonl
+
+# Model and deployment artifacts
+*.p[t]
+*.p[t]h
+*.jobli[b]
+*.mlpackag[e]/
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/
+
