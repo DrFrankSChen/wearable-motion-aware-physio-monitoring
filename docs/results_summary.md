@@ -23,7 +23,7 @@ Observed trends:
 - IMU-assisted motion handling improved robustness in motion-contaminated windows.
 - Lag correction improved agreement in evaluated sessions.
 - In real-time experiments with lying-still and large-movement conditions, the derived heart-rate trace remained stable and aligned with the finger-worn reference recording.
-- Post-experiment comparison against an O2Ring-style reference reached **Pearson correlation up to 0.809** and **mean absolute error as low as 1.2 beats per minute** in evaluated sessions.
+- Post-experiment comparison against an O2Ring-style reference reached **Pearson correlation up to 0.809** and **mean absolute error as low as 0.99 beats per minute** in evaluated sessions.
 
 ## Limitations
 
