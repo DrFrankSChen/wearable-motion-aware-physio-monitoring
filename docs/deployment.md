@@ -25,7 +25,7 @@ The experimental protocol included both low-motion and high-motion conditions:
 - Lying still.
 - Lying with large movements, including turning around.
 
-After the experiment, the app recording and finger-reference recording were aligned and compared offline. In evaluated sessions, the derived heart-rate trace remained stable during movement and aligned with the reference, reaching Pearson correlation up to **0.809** and mean absolute error as low as **1.2 bpm**.
+After the experiment, the app recording and finger-reference recording were aligned and compared offline. In evaluated sessions, the derived heart-rate trace remained stable during movement and aligned with the reference, reaching Pearson correlation up to **0.809** and mean absolute error as low as **0.99 bpm**.
 
 ![Example real-time heart-rate tracking under motion](figures/hr_realtime_reference_comparison.png)
 
