@@ -10,7 +10,7 @@ The project centers on motion-aware estimation from wearable PPG and IMU streams
 
 ![Motion-aware wearable physiological monitoring overview](docs/figures/system_overview.png)
 
-The overview shows the intended flow: headband and wrist-worn sensors provide PPG and IMU streams, motion-aware processing separates physiological content from movement artifacts, and downstream estimators produce breathing-rate and heart-rate outputs for sleep-related monitoring.
+The overview shows the intended flow: headband and wrist-worn sensors provide PPG and IMU streams, motion-aware processing detects or suppresses motion-contaminated segments, and downstream estimators produce breathing-rate and heart-rate outputs for sleep-related monitoring.
 
 ## Motivation
 
@@ -23,7 +23,7 @@ The work focuses on two research tracks:
 
 ## High-Level Approach
 
-The private research implementation explores a pipeline with these stages:
+The full research implementation explores a pipeline with these stages:
 
 1. Synchronize wearable PPG and IMU streams.
 2. Detect low-quality or motion-dominated windows.
@@ -150,7 +150,3 @@ The public materials should be enough for a reviewer to understand that the proj
 ## Status
 
 This is an active research repository. The public materials are designed to describe the research direction and engineering scope while preserving unpublished methods and private data.
-
-## Suggested GitHub Topics
-
-`wearable-ai`, `digital-health`, `physiological-sensing`, `ppg`, `imu`, `heart-rate`, `breathing-rate`, `motion-artifacts`, `signal-processing`, `python`
